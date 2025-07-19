@@ -11,7 +11,7 @@ html,body {
 }
 
 
-.container { /* mozi da se koristi container samo na forma vaka centirana full layout no i ne mora da se koristi container*/
+.container {
     width: 90%;
     height: 100%;
     max-width: 1200px;

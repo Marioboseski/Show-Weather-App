@@ -27,7 +27,7 @@ form.addEventListener("submit", async (e) => {
     const iconUrl = `https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`;
 
     result.innerHTML = `
-    <h2> ${data.name}, ${data.sys.country}</h2>
+        <h2> ${data.name}, ${data.sys.country}</h2>
         <img src = ${iconUrl} alt = "weather icon"   class = "weather-icon">
         <p> ${data.weather[0].description}</p>
         <p> Temperature ${data.main.temp}C </p>`;
